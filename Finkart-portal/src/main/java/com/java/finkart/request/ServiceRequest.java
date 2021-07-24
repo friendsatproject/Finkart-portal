@@ -1,6 +1,9 @@
 package com.java.finkart.request;
 
-public abstract class ServiceReqest implements Request{
+import lombok.Data;
+
+@Data
+public abstract class ServiceRequest implements Request{
 	
 	private String requsetTime;
 	private String resopnseTime;
